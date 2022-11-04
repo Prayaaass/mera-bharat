@@ -1,0 +1,115 @@
+*{
+    margin: 0; pad: 0; box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+header{
+    width: 100%; height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)) ,url('ind.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{ width: 100%;
+    height: 15vh;
+    background: (black);
+   
+    color: rgba(0, 0, 0, 0.059);
+   display: flex; justify-content:space-between;
+   align-items: center; text-transform: uppercase;
+  
+}
+nav .logo{
+    width: 25%;
+    text-align: center;
+    /* background: rgba(235, 235, 235, 0.53); */
+
+}
+nav .menu{
+    width: 40%;
+    /* background: rgba(235, 235, 235, 0.53); */
+    display: flex;
+    justify-content: space-around;
+
+}
+nav .menu a {
+         width: 25; text-decoration: none;
+        font-weight: bolder;
+        color: aliceblue;
+
+} nav .menu a:first-child{
+    color:rgb(255, 255, 255);
+}
+main{
+    width: 100%;
+    height: 85vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+section h3{
+    font-size: 45px; font-weight: 10;
+    letter-spacing: 3px; text-shadow: 2px 3px 2px black;
+    color: white;
+}
+ h1 {
+            color: beige;
+            font-size: 43px;
+            font-weight: 500;
+            letter-spacing: 3px; text-shadow: 3px 2px 2px black;
+ }
+ p{
+    color: rgb(132, 189, 196);
+            font-size: 23px;
+            font-weight: 500;
+            letter-spacing: 3px; text-shadow: 3px 2px 2px black;
+}
+ section a{ 
+    color: rgb(11, 26, 100);
+            font-size: 17px;
+            padding: 4px 30px;
+            font-weight: 500;
+            background-color: rgba(213, 191, 162, 0.653) ;
+            text-align: left;
+            text-decoration: none;
+            transition: all .5s ease;
+            letter-spacing: 2px; text-shadow: 1px 1px 1px rgb(72, 69, 69);
+ }
+ section a:last-child{
+        color:white;
+        background-color: black;
+    }
+ 
+
+ .xxx{
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+
+    letter-spacing: 2px; text-shadow: 1px 1px 1px rgb(72, 69, 69);
+ 
+ }
+
+ 
+  .c_content:after{
+
+    content:'';
+    color: aquamarine;
+    animation: changetext 15s infinite linear ;
+
+ }
+ @keyframes changetext {
+    0%{content:"Agra";}
+    20%{content:"konark";}
+    30%{content:"ladakh";}
+    40%{content:"ooty";}
+    50%{content:"kutab Minaar";}
+    60%{content:"kerla";}
+    70%{content:"Guwahati";}
+    80%{content:"simla";}
+    90%{content:"goa ";}
+    100%{content:"Darjeeling";}
+   
+ }
